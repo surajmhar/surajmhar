@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 460" width="100%" height="auto">
+  <defs>
+    <linearGradient id="proj-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+
+    <linearGradient id="proj-card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+
+    <linearGradient id="proj-accent-red" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E31B23"/>
+      <stop offset="100%" stop-color="#333333"/>
+    </linearGradient>
+
+    <linearGradient id="proj-accent-silver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D1D5DB"/>
+      <stop offset="100%" stop-color="#333333"/>
+    </linearGradient>
+
+    <pattern id="proj-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#333333" fill-opacity="0.18"/>
+    </pattern>
+
+    <style>
+      .proj-tag {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+        font-size: 10px;
+        font-weight: 600;
+        fill: #E31B23;
+        letter-spacing: 2px;
+      }
+      .proj-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        fill: #F5F5F5;
+        letter-spacing: -0.3px;
+      }
+      .proj-subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 13px;
+        fill: #A3A3A3;
+      }
+      .proj-card-name {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 17px;
+        font-weight: 800;
+        fill: #FFFFFF;
+        letter-spacing: 0.5px;
+      }
+      .proj-card-tagline {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11.5px;
+        font-weight: 500;
+        fill: #D1D5DB;
+      }
+      .proj-card-body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 11.5px;
+        fill: #A0A0A0;
+        line-height: 1.45;
+      }
+      .proj-pill-tech {
+        font-family: 'SFMono-Regular', Consolas, monospace;
+        font-size: 9px;
+        fill: #D1D5DB;
+      }
+      .proj-btn-cta {
+        font-family: 'SFMono-Regular', Consolas, monospace;
+        font-size: 9.5px;
+        font-weight: 700;
+        fill: #E31B23;
+        letter-spacing: 0.5px;
+      }
+    </style>
+  </defs>
+
+  <rect width="850" height="460" rx="16" fill="url(#proj-bg)"/>
+  <rect width="850" height="460" rx="16" fill="url(#proj-dots)"/>
+  <rect width="850" height="460" rx="16" fill="none" stroke="#1F1F1F" stroke-width="1.2"/>
+
+  <!-- Section Header -->
+  <g transform="translate(45, 34)">
+    <text x="0" y="0" class="proj-tag">// 02 · PRODUCTION SYSTEMS &amp; VENTURES</text>
+    <text x="0" y="26" class="proj-title">Featured Projects &amp; Initiatives</text>
+    <text x="0" y="46" class="proj-subtitle">Curated production SaaS, academic search systems, agency media, and growth challenges.</text>
+  </g>
+
+  <!-- 2x2 HIGH-TECH GRID OF PROJECTS -->
+  <!-- Card 1: DELVION (Top-Left) -->
+  <g transform="translate(45, 95)">
+    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+    <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-red)"/>
+
+    <!-- Header badge -->
+    <rect x="18" y="16" width="84" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
+    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">SAAS PLATFORM</text>
+
+    <!-- Title & Tagline -->
+    <text x="18" y="52" class="proj-card-name">DELVION</text>
+    <text x="100" y="52" class="proj-card-tagline" font-style="italic">&quot;Deliver Beyond.&quot;</text>
+
+    <!-- Description -->
+    <text x="18" y="74" class="proj-card-body">Agency-oriented SaaS system for managing client</text>
+    <text x="18" y="89" class="proj-card-body">workflows, packages, approvals, spend &amp; monthly reporting.</text>
+
+    <!-- Tech Stack Tags -->
+    <g transform="translate(18, 108)">
+      <rect width="68" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="10" y="15" class="proj-pill-tech">Next.js</text>
+
+      <rect x="76" y="0" width="76" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="86" y="15" class="proj-pill-tech">Supabase</text>
+
+      <rect x="160" y="0" width="72" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="170" y="15" class="proj-pill-tech">SaaS Flow</text>
+    </g>
+
+    <!-- Status link -->
+    <text x="272" y="142" class="proj-btn-cta">LIVE PREVIEW ↗</text>
+  </g>
+
+  <!-- Card 2: ZOVO SEARCH (Top-Right) -->
+  <g transform="translate(435, 95)">
+    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+    <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-silver)"/>
+
+    <!-- Header badge -->
+    <rect x="18" y="16" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
+    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">RESEARCH &amp; R&amp;D</text>
+
+    <!-- Title & Tagline -->
+    <text x="18" y="52" class="proj-card-name">ZOVO SEARCH</text>
+    <text x="146" y="52" class="proj-card-tagline">SEO Engine</text>
+
+    <!-- Description -->
+    <text x="18" y="74" class="proj-card-body">Python/Flask web search platform featuring an integrated</text>
+    <text x="18" y="89" class="proj-card-body">SEO Analyzer tool; academic and thesis connection.</text>
+
+    <!-- Tech Stack Tags -->
+    <g transform="translate(18, 108)">
+      <rect width="64" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="10" y="15" class="proj-pill-tech">Python</text>
+
+      <rect x="72" y="0" width="58" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="82" y="15" class="proj-pill-tech">Flask</text>
+
+      <rect x="138" y="0" width="94" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="148" y="15" class="proj-pill-tech">SEO Engine</text>
+    </g>
+
+    <!-- Status link -->
+    <text x="270" y="142" class="proj-btn-cta" fill="#D1D5DB">REPOSITORY ↗</text>
+  </g>
+
+  <!-- Card 3: GTM CREATORS HUB (Bottom-Left) -->
+  <g transform="translate(45, 270)">
+    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+    <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-red)"/>
+
+    <!-- Header badge -->
+    <rect x="18" y="16" width="112" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
+    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">CREATIVE AGENCY</text>
+
+    <!-- Title & Tagline -->
+    <text x="18" y="52" class="proj-card-name">GTM Creators Hub</text>
+    <text x="175" y="52" class="proj-card-tagline" font-style="italic">&quot;We Create, You Grow.&quot;</text>
+
+    <!-- Description -->
+    <text x="18" y="74" class="proj-card-body">Creative agency operations specializing in commercial video</text>
+    <text x="18" y="89" class="proj-card-body">advertisements, social content creation, and creative campaigns.</text>
+
+    <!-- Tech Stack Tags -->
+    <g transform="translate(18, 108)">
+      <rect width="78" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="10" y="15" class="proj-pill-tech">Video Ads</text>
+
+      <rect x="86" y="0" width="86" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="96" y="15" class="proj-pill-tech">Social Media</text>
+
+      <rect x="180" y="0" width="88" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="190" y="15" class="proj-pill-tech">Production</text>
+    </g>
+
+    <!-- Status link -->
+    <text x="286" y="142" class="proj-btn-cta">PORTFOLIO ↗</text>
+  </g>
+
+  <!-- Card 4: 111 DAYS OF LEARNING (Bottom-Right) -->
+  <g transform="translate(435, 270)">
+    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+    <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-silver)"/>
+
+    <!-- Header badge -->
+    <rect x="18" y="16" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
+    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">PUBLIC SPRINT</text>
+
+    <!-- Title & Tagline -->
+    <text x="18" y="52" class="proj-card-name">111 Days of Learning</text>
+
+    <!-- Description -->
+    <text x="18" y="74" class="proj-card-body">Daily public-learning sprint organized by Code for Change,</text>
+    <text x="18" y="89" class="proj-card-body">mastering Facebook/Meta Ads, SMM, and campaign scaling.</text>
+
+    <!-- Tech Stack Tags -->
+    <g transform="translate(18, 108)">
+      <rect width="80" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="10" y="15" class="proj-pill-tech">Meta Ads</text>
+
+      <rect x="88" y="0" width="60" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="98" y="15" class="proj-pill-tech">SMM</text>
+
+      <rect x="156" y="0" width="112" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
+      <text x="166" y="15" class="proj-pill-tech">Growth Sprint</text>
+    </g>
+
+    <!-- Status link -->
+    <text x="282" y="142" class="proj-btn-cta" fill="#D1D5DB">JOURNEY ↗</text>
+  </g>
+</svg>

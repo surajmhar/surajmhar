@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 515" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 850 560" width="100%" height="auto">
   <defs>
     <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#050505"/>
@@ -7,7 +7,7 @@
 
     <linearGradient id="about-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#121212"/>
-      <stop offset="100%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#090909"/>
     </linearGradient>
 
     <linearGradient id="about-card-border-1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -51,20 +51,20 @@
       }
       .about-col-title {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        font-size: 15px;
+        font-size: 14.5px;
         font-weight: 700;
         fill: #F5F5F5;
       }
       .about-col-sub {
         font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-        font-size: 10px;
+        font-size: 9.5px;
         font-weight: 600;
         fill: #E31B23;
         letter-spacing: 0.8px;
       }
       .about-col-desc {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        font-size: 12px;
+        font-size: 11.5px;
         fill: #A3A3A3;
         line-height: 1.45;
       }
@@ -75,14 +75,13 @@
       }
       .about-proj-title {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        font-size: 14px;
+        font-size: 14.5px;
         font-weight: 700;
         fill: #F5F5F5;
       }
       .about-proj-tagline {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
         font-size: 11px;
-        font-style: italic;
         fill: #D1D5DB;
       }
       .about-proj-desc {
@@ -95,9 +94,9 @@
   </defs>
 
   <!-- Background -->
-  <rect width="850" height="515" rx="16" fill="url(#about-bg)"/>
-  <rect width="850" height="515" rx="16" fill="url(#about-grid-dots)"/>
-  <rect width="850" height="515" rx="16" fill="none" stroke="#1F1F1F" stroke-width="1.2"/>
+  <rect width="850" height="560" rx="16" fill="url(#about-bg)"/>
+  <rect width="850" height="560" rx="16" fill="url(#about-grid-dots)"/>
+  <rect width="850" height="560" rx="16" fill="none" stroke="#1F1F1F" stroke-width="1.2"/>
 
   <!-- Section Header -->
   <g transform="translate(45, 34)">
@@ -109,153 +108,152 @@
   <!-- THREE PILLARS (COLUMNS) -->
   <!-- Column 1: Creative Storytelling & Video Production -->
   <g transform="translate(45, 100)">
-    <rect width="242" height="225" rx="12" fill="url(#about-card-grad)" stroke="#222222" stroke-width="1"/>
+    <rect width="242" height="235" rx="12" fill="url(#about-card-grad)" stroke="#222222" stroke-width="1"/>
     <rect width="242" height="3" rx="1.5" fill="url(#about-card-border-1)"/>
     
     <!-- Icon / Badge -->
-    <rect x="18" y="16" width="32" height="32" rx="8" fill="#1A0D0D" stroke="#E31B23" stroke-width="0.8"/>
-    <!-- Film / Video Icon -->
-    <path d="M 28 26 L 40 32 L 28 38 Z" fill="#E31B23"/>
+    <rect x="16" y="16" width="30" height="30" rx="7" fill="#1A0D0D" stroke="#E31B23" stroke-width="0.8"/>
+    <path d="M 26 25 L 37 31 L 26 37 Z" fill="#E31B23"/>
 
-    <text x="60" y="28" class="about-col-title">Creative Storytelling</text>
-    <text x="60" y="42" class="about-col-sub">VIDEO PRODUCTION</text>
+    <text x="54" y="27" class="about-col-title">Creative Storytelling</text>
+    <text x="54" y="40" class="about-col-sub">VIDEO PRODUCTION</text>
 
-    <!-- Bullets -->
-    <g transform="translate(18, 68)">
+    <!-- Bullets with STRICT WRAPPING (No text overflow) -->
+    <g transform="translate(16, 64)">
       <circle cx="4" cy="5" r="2" fill="#E31B23"/>
-      <text x="14" y="9" class="about-col-desc"><tspan font-weight="600" fill="#E5E5E5">Former Creative Head &amp; Project Manager</tspan></text>
-      <text x="14" y="24" class="about-col-desc">at DGIT PVT. LTD.</text>
+      <text x="14" y="8" class="about-col-desc" font-weight="600" fill="#F0F0F0">Former Creative Head &amp;</text>
+      <text x="14" y="23" class="about-col-desc" font-weight="600" fill="#F0F0F0">Project Manager @ DGIT</text>
 
-      <circle cx="4" cy="45" r="2" fill="#E31B23"/>
+      <circle cx="4" cy="46" r="2" fill="#E31B23"/>
       <text x="14" y="49" class="about-col-desc">Commercial video editing &amp;</text>
       <text x="14" y="64" class="about-col-desc">narrative advertising media.</text>
 
-      <circle cx="4" cy="85" r="2" fill="#E31B23"/>
-      <text x="14" y="89" class="about-col-desc">Social content creation with</text>
-      <text x="14" y="104" class="about-col-desc">retention-first visual pacing.</text>
+      <circle cx="4" cy="87" r="2" fill="#E31B23"/>
+      <text x="14" y="90" class="about-col-desc">High-retention social ads &amp;</text>
+      <text x="14" y="105" class="about-col-desc">brand visual pacing.</text>
     </g>
 
     <!-- Bottom Tools Pill -->
-    <rect x="18" y="186" width="206" height="24" rx="6" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
-    <text x="26" y="202" class="about-col-badge">TOOLS: Premiere Pro · Canva</text>
+    <rect x="16" y="196" width="210" height="24" rx="6" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
+    <text x="24" y="212" class="about-col-badge">TOOLS: Premiere Pro · Canva</text>
   </g>
 
   <!-- Column 2: Digital Marketing & Social Media Strategy -->
   <g transform="translate(304, 100)">
-    <rect width="242" height="225" rx="12" fill="url(#about-card-grad)" stroke="#222222" stroke-width="1"/>
+    <rect width="242" height="235" rx="12" fill="url(#about-card-grad)" stroke="#222222" stroke-width="1"/>
     <rect width="242" height="3" rx="1.5" fill="url(#about-card-border-2)"/>
 
     <!-- Icon / Badge -->
-    <rect x="18" y="16" width="32" height="32" rx="8" fill="#141414" stroke="#D1D5DB" stroke-width="0.8"/>
-    <!-- Growth / Target Icon -->
-    <circle cx="34" cy="32" r="7" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
-    <circle cx="34" cy="32" r="3" fill="#E31B23"/>
+    <rect x="16" y="16" width="30" height="30" rx="7" fill="#141414" stroke="#D1D5DB" stroke-width="0.8"/>
+    <circle cx="31" cy="31" r="7" fill="none" stroke="#D1D5DB" stroke-width="1.5"/>
+    <circle cx="31" cy="31" r="3" fill="#E31B23"/>
 
-    <text x="60" y="28" class="about-col-title">Digital Marketing</text>
-    <text x="60" y="42" class="about-col-sub" fill="#D1D5DB">STRATEGY &amp; META ADS</text>
+    <text x="54" y="27" class="about-col-title">Digital Marketing</text>
+    <text x="54" y="40" class="about-col-sub" fill="#D1D5DB">STRATEGY &amp; META ADS</text>
 
-    <!-- Bullets -->
-    <g transform="translate(18, 68)">
+    <!-- Bullets with STRICT WRAPPING -->
+    <g transform="translate(16, 64)">
       <circle cx="4" cy="5" r="2" fill="#D1D5DB"/>
-      <text x="14" y="9" class="about-col-desc"><tspan font-weight="600" fill="#E5E5E5">Manager — GTM Creators Hub</tspan></text>
-      <text x="14" y="24" class="about-col-desc">&quot;We Create, You Grow.&quot;</text>
+      <text x="14" y="8" class="about-col-desc" font-weight="600" fill="#F0F0F0">Manager — GTM Creators Hub</text>
+      <text x="14" y="23" class="about-col-desc">&quot;We Create, You Grow.&quot;</text>
 
-      <circle cx="4" cy="45" r="2" fill="#D1D5DB"/>
+      <circle cx="4" cy="46" r="2" fill="#D1D5DB"/>
       <text x="14" y="49" class="about-col-desc">Facebook &amp; Meta Ads targeting,</text>
-      <text x="14" y="64" class="about-col-desc">creative testing &amp; spend control.</text>
+      <text x="14" y="64" class="about-col-desc">testing &amp; budget scaling.</text>
 
-      <circle cx="4" cy="85" r="2" fill="#D1D5DB"/>
-      <text x="14" y="89" class="about-col-desc">Social Media Marketing systems</text>
-      <text x="14" y="104" class="about-col-desc">driving audience conversion.</text>
+      <circle cx="4" cy="87" r="2" fill="#D1D5DB"/>
+      <text x="14" y="90" class="about-col-desc">Social Media Marketing</text>
+      <text x="14" y="105" class="about-col-desc">systems &amp; conversion funnels.</text>
     </g>
 
     <!-- Bottom Focus Pill -->
-    <rect x="18" y="186" width="206" height="24" rx="6" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
-    <text x="26" y="202" class="about-col-badge">FOCUS: Meta Ads · SMM · Campaigns</text>
+    <rect x="16" y="196" width="210" height="24" rx="6" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
+    <text x="24" y="212" class="about-col-badge">FOCUS: Meta Ads · SMM Strategy</text>
   </g>
 
   <!-- Column 3: Software & Product Development -->
   <g transform="translate(563, 100)">
-    <rect width="242" height="225" rx="12" fill="url(#about-card-grad)" stroke="#222222" stroke-width="1"/>
+    <rect width="242" height="235" rx="12" fill="url(#about-card-grad)" stroke="#222222" stroke-width="1"/>
     <rect width="242" height="3" rx="1.5" fill="url(#about-card-border-3)"/>
 
     <!-- Icon / Badge -->
-    <rect x="18" y="16" width="32" height="32" rx="8" fill="#1A0D0D" stroke="#E31B23" stroke-width="0.8"/>
-    <!-- Terminal / Code Brackets Icon -->
-    <path d="M 28 28 L 32 32 L 28 36 M 36 36 L 40 36" fill="none" stroke="#E31B23" stroke-width="1.8" stroke-linecap="round"/>
+    <rect x="16" y="16" width="30" height="30" rx="7" fill="#1A0D0D" stroke="#E31B23" stroke-width="0.8"/>
+    <path d="M 26 27 L 30 31 L 26 35 M 34 35 L 38 35" fill="none" stroke="#E31B23" stroke-width="1.8" stroke-linecap="round"/>
 
-    <text x="60" y="28" class="about-col-title">Product Building</text>
-    <text x="60" y="42" class="about-col-sub">SOFTWARE &amp; WEB APPS</text>
+    <text x="54" y="27" class="about-col-title">Product Building</text>
+    <text x="54" y="40" class="about-col-sub">SOFTWARE &amp; WEB APPS</text>
 
-    <!-- Bullets -->
-    <g transform="translate(18, 68)">
+    <!-- Bullets with STRICT WRAPPING -->
+    <g transform="translate(16, 64)">
       <circle cx="4" cy="5" r="2" fill="#E31B23"/>
-      <text x="14" y="9" class="about-col-desc"><tspan font-weight="600" fill="#E5E5E5">B.Ed. Computer Science / CSIT</tspan></text>
-      <text x="14" y="24" class="about-col-desc">Far Western University, Central Campus</text>
+      <text x="14" y="8" class="about-col-desc" font-weight="600" fill="#F0F0F0">B.Ed. Computer Science /</text>
+      <text x="14" y="23" class="about-col-desc">CSIT @ Far Western Univ.</text>
 
-      <circle cx="4" cy="45" r="2" fill="#E31B23"/>
-      <text x="14" y="49" class="about-col-desc"><tspan font-weight="600" fill="#E5E5E5">Treasurer</tspan> — Code for Change</text>
-      <text x="14" y="64" class="about-col-desc">Farwest (2025/26).</text>
+      <circle cx="4" cy="46" r="2" fill="#E31B23"/>
+      <text x="14" y="49" class="about-col-desc" font-weight="600" fill="#F0F0F0">Treasurer</text>
+      <text x="74" y="49" class="about-col-desc">— Code for Change</text>
+      <text x="14" y="64" class="about-col-desc">Farwest (Tenure: 2025/26).</text>
 
-      <circle cx="4" cy="85" r="2" fill="#E31B23"/>
-      <text x="14" y="89" class="about-col-desc">Modern web apps with Next.js,</text>
-      <text x="14" y="104" class="about-col-desc">Supabase, Python &amp; Flask.</text>
+      <circle cx="4" cy="87" r="2" fill="#E31B23"/>
+      <text x="14" y="90" class="about-col-desc">Web apps with Next.js,</text>
+      <text x="14" y="105" class="about-col-desc">Supabase, Python &amp; Flask.</text>
     </g>
 
     <!-- Bottom Stack Pill -->
-    <rect x="18" y="186" width="206" height="24" rx="6" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
-    <text x="26" y="202" class="about-col-badge">STACK: Next.js · Supabase · Python</text>
+    <rect x="16" y="196" width="210" height="24" rx="6" fill="#0A0A0A" stroke="#222222" stroke-width="1"/>
+    <text x="24" y="212" class="about-col-badge">STACK: Next.js · Supabase · Python</text>
   </g>
 
-  <!-- CURRENTLY BUILDING & FOCUS AREA -->
-  <g transform="translate(45, 342)">
+  <!-- CURRENTLY BUILDING & FOCUS AREA (Clean, Multi-line, Zero Text Collisions) -->
+  <g transform="translate(45, 355)">
     <text x="0" y="0" font-family="'SFMono-Regular', Consolas, monospace" font-size="10" font-weight="600" fill="#D1D5DB" letter-spacing="1.5">// CURRENT INITIATIVES &amp; VENTURES</text>
 
     <!-- Project 1: DELVION -->
-    <g transform="translate(0, 14)">
-      <rect width="242" height="135" rx="10" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="1"/>
+    <g transform="translate(0, 16)">
+      <rect width="242" height="150" rx="10" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="1"/>
       <rect x="14" y="14" width="76" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
       <text x="20" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">SAAS BUILD</text>
 
       <text x="14" y="48" class="about-proj-title">DELVION</text>
-      <text x="86" y="48" class="about-proj-tagline">&quot;Deliver Beyond.&quot;</text>
+      <text x="14" y="64" class="about-proj-tagline" font-style="italic">&quot;Deliver Beyond.&quot;</text>
 
-      <text x="14" y="68" class="about-proj-desc">Agency SaaS for client projects,</text>
-      <text x="14" y="82" class="about-proj-desc">approvals, campaign spend &amp; reports.</text>
+      <text x="14" y="84" class="about-proj-desc">Agency SaaS for client projects,</text>
+      <text x="14" y="98" class="about-proj-desc">approvals, campaign spend &amp; reports.</text>
 
-      <rect x="14" y="98" width="138" height="20" rx="4" fill="#141414" stroke="#262626" stroke-width="0.8"/>
-      <text x="22" y="112" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#D1D5DB">Next.js · Supabase</text>
+      <rect x="14" y="114" width="138" height="20" rx="4" fill="#141414" stroke="#262626" stroke-width="0.8"/>
+      <text x="22" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#D1D5DB">Next.js · Supabase</text>
     </g>
 
-    <!-- Project 2: ZOVO SEARCH -->
-    <g transform="translate(259, 14)">
-      <rect width="242" height="135" rx="10" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="1"/>
-      <rect x="14" y="14" width="100" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
+    <!-- Project 2: ZOVO SEARCH (Separate lines for title and tagline to prevent collision!) -->
+    <g transform="translate(259, 16)">
+      <rect width="242" height="150" rx="10" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="1"/>
+      <rect x="14" y="14" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
       <text x="20" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">ACADEMIC / R&amp;D</text>
 
       <text x="14" y="48" class="about-proj-title">ZOVO SEARCH</text>
       <text x="14" y="64" class="about-proj-tagline">Web Search &amp; SEO Analyzer</text>
 
-      <text x="14" y="80" class="about-proj-desc">Academic thesis &amp; search project with</text>
-      <text x="14" y="93" class="about-proj-desc">differentiating SEO analysis features.</text>
+      <text x="14" y="84" class="about-proj-desc">Academic thesis &amp; search project with</text>
+      <text x="14" y="98" class="about-proj-desc">differentiating SEO analysis features.</text>
 
-      <rect x="14" y="104" width="118" height="18" rx="4" fill="#141414" stroke="#262626" stroke-width="0.8"/>
-      <text x="22" y="117" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#D1D5DB">Python · Flask</text>
+      <rect x="14" y="114" width="118" height="20" rx="4" fill="#141414" stroke="#262626" stroke-width="0.8"/>
+      <text x="22" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#D1D5DB">Python · Flask</text>
     </g>
 
     <!-- Project 3: 111 DAYS OF LEARNING -->
-    <g transform="translate(518, 14)">
-      <rect width="242" height="135" rx="10" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="1"/>
+    <g transform="translate(518, 16)">
+      <rect width="242" height="150" rx="10" fill="#0A0A0A" stroke="#1F1F1F" stroke-width="1"/>
       <rect x="14" y="14" width="102" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
       <text x="20" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">PUBLIC SPRINT</text>
 
-      <text x="14" y="50" class="about-proj-title">111 Days of Learning</text>
+      <text x="14" y="48" class="about-proj-title">111 Days of Learning</text>
+      <text x="14" y="64" class="about-proj-tagline">Code for Change Initiative</text>
 
-      <text x="14" y="70" class="about-proj-desc">Daily public challenge by Code for Change</text>
-      <text x="14" y="84" class="about-proj-desc">focused on Meta Ads &amp; Social Marketing.</text>
+      <text x="14" y="84" class="about-proj-desc">Daily public sprint focused on</text>
+      <text x="14" y="98" class="about-proj-desc">Facebook/Meta Ads &amp; Social Marketing.</text>
 
-      <rect x="14" y="98" width="158" height="20" rx="4" fill="#141414" stroke="#262626" stroke-width="0.8"/>
-      <text x="22" y="112" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#D1D5DB">Meta Ads · Digital Marketing</text>
+      <rect x="14" y="114" width="168" height="20" rx="4" fill="#141414" stroke="#262626" stroke-width="0.8"/>
+      <text x="22" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#D1D5DB">Meta Ads · Digital Marketing</text>
     </g>
   </g>
 </svg>
