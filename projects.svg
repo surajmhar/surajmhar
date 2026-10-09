@@ -92,23 +92,19 @@
   <!-- 2x2 HIGH-TECH GRID OF PROJECTS -->
   <!-- Card 1: DELVION (Top-Left) -->
   <g transform="translate(45, 95)">
-    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+    <rect width="370" height="165" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
     <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-red)"/>
 
-    <!-- Header badge -->
-    <rect x="18" y="16" width="84" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
-    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">SAAS PLATFORM</text>
+    <rect x="18" y="14" width="84" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
+    <text x="26" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">SAAS PLATFORM</text>
 
-    <!-- Title & Tagline -->
-    <text x="18" y="52" class="proj-card-name">DELVION</text>
-    <text x="100" y="52" class="proj-card-tagline" font-style="italic">&quot;Deliver Beyond.&quot;</text>
+    <text x="18" y="48" class="proj-card-name">DELVION</text>
+    <text x="18" y="64" class="proj-card-tagline" font-style="italic">&quot;Deliver Beyond.&quot;</text>
 
-    <!-- Description -->
-    <text x="18" y="74" class="proj-card-body">Agency-oriented SaaS system for managing client</text>
-    <text x="18" y="89" class="proj-card-body">workflows, packages, approvals, spend &amp; monthly reporting.</text>
+    <text x="18" y="82" class="proj-card-body">Agency-oriented SaaS system for client workflows,</text>
+    <text x="18" y="96" class="proj-card-body">packages, approvals, campaign spend &amp; monthly reporting.</text>
 
-    <!-- Tech Stack Tags -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 114)">
       <rect width="68" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
       <text x="10" y="15" class="proj-pill-tech">Next.js</text>
 
@@ -119,29 +115,24 @@
       <text x="170" y="15" class="proj-pill-tech">SaaS Flow</text>
     </g>
 
-    <!-- Status link -->
-    <text x="272" y="142" class="proj-btn-cta">LIVE PREVIEW ↗</text>
+    <text x="272" y="147" class="proj-btn-cta">LIVE PREVIEW ↗</text>
   </g>
 
   <!-- Card 2: ZOVO SEARCH (Top-Right) -->
   <g transform="translate(435, 95)">
-    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+    <rect width="370" height="165" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
     <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-silver)"/>
 
-    <!-- Header badge -->
-    <rect x="18" y="16" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
-    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">RESEARCH &amp; R&amp;D</text>
+    <rect x="18" y="14" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
+    <text x="26" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">RESEARCH &amp; R&amp;D</text>
 
-    <!-- Title & Tagline -->
-    <text x="18" y="52" class="proj-card-name">ZOVO SEARCH</text>
-    <text x="146" y="52" class="proj-card-tagline">SEO Engine</text>
+    <text x="18" y="48" class="proj-card-name">ZOVO SEARCH</text>
+    <text x="18" y="64" class="proj-card-tagline">Web Search &amp; SEO Analyzer</text>
 
-    <!-- Description -->
-    <text x="18" y="74" class="proj-card-body">Python/Flask web search platform featuring an integrated</text>
-    <text x="18" y="89" class="proj-card-body">SEO Analyzer tool; academic and thesis connection.</text>
+    <text x="18" y="82" class="proj-card-body">Python/Flask web search platform with an integrated</text>
+    <text x="18" y="96" class="proj-card-body">SEO Analyzer tool; academic and thesis connection.</text>
 
-    <!-- Tech Stack Tags -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 114)">
       <rect width="64" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
       <text x="10" y="15" class="proj-pill-tech">Python</text>
 
@@ -152,29 +143,24 @@
       <text x="148" y="15" class="proj-pill-tech">SEO Engine</text>
     </g>
 
-    <!-- Status link -->
-    <text x="270" y="142" class="proj-btn-cta" fill="#D1D5DB">REPOSITORY ↗</text>
+    <text x="270" y="147" class="proj-btn-cta" fill="#D1D5DB">REPOSITORY ↗</text>
   </g>
 
   <!-- Card 3: GTM CREATORS HUB (Bottom-Left) -->
-  <g transform="translate(45, 270)">
-    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+  <g transform="translate(45, 275)">
+    <rect width="370" height="165" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
     <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-red)"/>
 
-    <!-- Header badge -->
-    <rect x="18" y="16" width="112" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
-    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">CREATIVE AGENCY</text>
+    <rect x="18" y="14" width="112" height="18" rx="4" fill="#200B0B" stroke="#E31B23" stroke-width="0.8"/>
+    <text x="26" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#FF5E62">CREATIVE AGENCY</text>
 
-    <!-- Title & Tagline -->
-    <text x="18" y="52" class="proj-card-name">GTM Creators Hub</text>
-    <text x="175" y="52" class="proj-card-tagline" font-style="italic">&quot;We Create, You Grow.&quot;</text>
+    <text x="18" y="48" class="proj-card-name">GTM Creators Hub</text>
+    <text x="18" y="64" class="proj-card-tagline" font-style="italic">&quot;We Create, You Grow.&quot;</text>
 
-    <!-- Description -->
-    <text x="18" y="74" class="proj-card-body">Creative agency operations specializing in commercial video</text>
-    <text x="18" y="89" class="proj-card-body">advertisements, social content creation, and creative campaigns.</text>
+    <text x="18" y="82" class="proj-card-body">Creative agency operations specializing in commercial video</text>
+    <text x="18" y="96" class="proj-card-body">advertisements, social content creation, and creative campaigns.</text>
 
-    <!-- Tech Stack Tags -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 114)">
       <rect width="78" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
       <text x="10" y="15" class="proj-pill-tech">Video Ads</text>
 
@@ -185,28 +171,24 @@
       <text x="190" y="15" class="proj-pill-tech">Production</text>
     </g>
 
-    <!-- Status link -->
-    <text x="286" y="142" class="proj-btn-cta">PORTFOLIO ↗</text>
+    <text x="286" y="147" class="proj-btn-cta">PORTFOLIO ↗</text>
   </g>
 
   <!-- Card 4: 111 DAYS OF LEARNING (Bottom-Right) -->
-  <g transform="translate(435, 270)">
-    <rect width="370" height="160" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
+  <g transform="translate(435, 275)">
+    <rect width="370" height="165" rx="12" fill="url(#proj-card-bg)" stroke="#222222" stroke-width="1"/>
     <rect width="370" height="3" rx="1.5" fill="url(#proj-accent-silver)"/>
 
-    <!-- Header badge -->
-    <rect x="18" y="16" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
-    <text x="26" y="28" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">PUBLIC SPRINT</text>
+    <rect x="18" y="14" width="102" height="18" rx="4" fill="#161616" stroke="#444444" stroke-width="0.8"/>
+    <text x="26" y="26" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" font-weight="700" fill="#D1D5DB">PUBLIC SPRINT</text>
 
-    <!-- Title & Tagline -->
-    <text x="18" y="52" class="proj-card-name">111 Days of Learning</text>
+    <text x="18" y="48" class="proj-card-name">111 Days of Learning</text>
+    <text x="18" y="64" class="proj-card-tagline">Code for Change Initiative</text>
 
-    <!-- Description -->
-    <text x="18" y="74" class="proj-card-body">Daily public-learning sprint organized by Code for Change,</text>
-    <text x="18" y="89" class="proj-card-body">mastering Facebook/Meta Ads, SMM, and campaign scaling.</text>
+    <text x="18" y="82" class="proj-card-body">Daily public-learning sprint organized by Code for Change,</text>
+    <text x="18" y="96" class="proj-card-body">mastering Facebook/Meta Ads, SMM, and campaign scaling.</text>
 
-    <!-- Tech Stack Tags -->
-    <g transform="translate(18, 108)">
+    <g transform="translate(18, 114)">
       <rect width="80" height="22" rx="4" fill="#141414" stroke="#282828" stroke-width="0.8"/>
       <text x="10" y="15" class="proj-pill-tech">Meta Ads</text>
 
@@ -217,7 +199,6 @@
       <text x="166" y="15" class="proj-pill-tech">Growth Sprint</text>
     </g>
 
-    <!-- Status link -->
-    <text x="282" y="142" class="proj-btn-cta" fill="#D1D5DB">JOURNEY ↗</text>
+    <text x="282" y="147" class="proj-btn-cta" fill="#D1D5DB">JOURNEY ↗</text>
   </g>
 </svg>
