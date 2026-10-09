@@ -1,17 +1,17 @@
-<div align="center">
-
-# SURAJ MAHAR
-
-**Creative Technologist · Digital Marketer · Product Builder · Creative Video Editor**  
-*Mahendranagar, Nepal*
-
-[[https://img.shields.io/badge/Website-maharsuraj.com.np-E31B23?style=flat-square&logo=googlechrome&logoColor=white]](https://maharsuraj.com.np)
-[[https://img.shields.io/badge/LinkedIn-Suraj_Mahar-0A66C2?style=flat-square&logo=linkedin&logoColor=white]](https://linkedin.com/in/surajmahar)
-[[https://img.shields.io/badge/Instagram-@surajmaharofficial-E1306C?style=flat-square&logo=instagram&logoColor=white]](https://www.instagram.com/surajmaharofficial/)
-[[https://img.shields.io/badge/GitHub-surajmhar-181717?style=flat-square&logo=github&logoColor=white]](https://github.com/surajmhar)
-[[https://img.shields.io/badge/Email-surajmahar122@gmail.com-D1D5DB?style=flat-square&logo=gmail&logoColor=050505]](mailto:surajmahar122@gmail.com)
-
-</div>
+<p align="center">
+  <h1 align="center">SURAJ MAHAR</h1>
+  <p align="center">
+    <strong>Creative Technologist · Digital Marketer · Product Builder · Creative Video Editor</strong><br/>
+    <em>Mahendranagar, Nepal</em>
+  </p>
+  <p align="center">
+    <a href="https://maharsuraj.com.np"><img src="https://img.shields.io/badge/Website-maharsuraj.com.np-E31B23?style=flat-square&logo=googlechrome&logoColor=white" alt="Website" /></a>
+    <a href="https://linkedin.com/in/surajmahar"><img src="https://img.shields.io/badge/LinkedIn-Suraj_Mahar-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://www.instagram.com/surajmaharofficial/"><img src="https://img.shields.io/badge/Instagram-@surajmaharofficial-E1306C?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+    <a href="https://github.com/surajmhar"><img src="https://img.shields.io/badge/GitHub-surajmhar-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="mailto:surajmahar122@gmail.com"><img src="https://img.shields.io/badge/Email-surajmahar122@gmail.com-D1D5DB?style=flat-square&logo=gmail&logoColor=050505" alt="Email" /></a>
+  </p>
+</p>
 
 ---
 
